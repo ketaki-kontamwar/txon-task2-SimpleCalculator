@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.calculator {
+    padding: 10px;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    margin-bottom: 6rem;
+    }
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+#btn {
+    background-color: grey;
+}
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color:azure;
+    color: black;
+    width: 100%;
+     height: 70%;
+    outline: none;
+}
+small{
+     display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;}
